@@ -82,7 +82,7 @@ public class TransactionServlet extends HttpServlet {
                 AccountDB.UpdateAccount(checking);
                 AccountDB.UpdateAccount(savings);
                 message = "Your funds have been Transfered";
-                url = "/transfer_funds.jsp";
+                url = "/account_activity.jsp";
 
             }
         
